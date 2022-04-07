@@ -1,9 +1,11 @@
 #include <stdio.h>
-/*
- * main - Outputs byte size of native data types
- * Return: (0) if output successful with no errors
+
+/**
+ * main - Entry point
+ *  
+ * Return: Always 0 (success)
  */
-int main(void)
+int(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
 	printf("Size of an int: %lu byte(s)\n", sizeof(int));
