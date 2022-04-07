@@ -1,7 +1,6 @@
 #include <stdio.h>
 /*
  * main - Outputs byte size of native data types
- * 
  * Return: (0) if output successful with no errors
  */
 int main(void)
