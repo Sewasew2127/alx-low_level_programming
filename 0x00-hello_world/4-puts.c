@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - Function to print a string using puts
- * Retrun: Always 0
+ * retrun - Always 0
  */
 int main(void)
 {
