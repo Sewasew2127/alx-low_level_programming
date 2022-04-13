@@ -21,7 +21,7 @@ int main(void)
 		a1 = a2;
 		a2 = n;
 		n = a1 + a2;
-		if (c < 955555)
+		if (c < 95)
 			printf(", ");
 	}
 	printf("\n");
