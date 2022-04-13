@@ -15,13 +15,13 @@ int main(void)
 	a2 = 2;
 	n = a1 + a2;
 	printf("%ld, %ld, ", a1, a2);
-	for( c = 0; c < 50; c++)
+	for (c = 0; c < 48; c++)
 	{
 		printf("%ld", n);
 		a1 = a2;
 		a2 = n;
 		n = a1 + a2;
-		if (c < 49)
+		if (c < 47)
 			printf(", ");
 	}
 	printf("\n");
