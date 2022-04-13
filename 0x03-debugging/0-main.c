@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main- tests the function that prints integer 
+ * main - tests the function that prints integer
  *
  * Return: 0
  */
