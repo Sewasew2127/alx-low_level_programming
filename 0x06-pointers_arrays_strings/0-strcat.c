@@ -15,8 +15,8 @@ char *_strcat(char *dest, char *src)
 	int i;
 	int j;
 
-	/* store the length of src in i */
-	for (i = 0; src[i] != '\0'; ++i)
+	/* store the length of dest in i */
+	for (i = 0; dest[i] != '\0'; ++i)
 		;
 	/* concatenate src to dest */
 	for (j = 0; src[j] != '\0'; ++j, ++i)
