@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * leet - encodes a stirng to 1337
  * @s: stirng
