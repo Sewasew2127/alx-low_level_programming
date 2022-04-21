@@ -6,7 +6,7 @@
  *
  * Description: a function that works like strcmp
  *
- * Retrun: integer.
+ * Return: integer.
  */
 int _strcmp(char *s1, char *s2)
 {
