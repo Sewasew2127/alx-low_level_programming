@@ -11,18 +11,18 @@ char *cap_string(char *s)
 	int i;
 	int j;
 
-	for (i =0, j = 0; s[i]; ++i)
+	for (i = 0, j = 0; s[i]; ++i)
 	{
 		if ('a' <= s[i] && s[i] <= 'z')
 		{
 			if (i)
 			{
-				for (j = 0; ws[j] && ws[j] != s[i - 1]; ++j)
+				for (j = 0; separator[j] && separator[j] != s[i - 1]; ++j)
 					;
 			}
+			if (separator[j])
+				s[i] -= ('a' - 'A');
 		}
-		if (separator[j])
-			s[i] -= ('a' - 'A');
 	}
 	return (s);
 }
