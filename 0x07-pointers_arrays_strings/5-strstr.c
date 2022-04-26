@@ -4,8 +4,7 @@
  * @haystack: the string
  * @needle: substring
  *
- * Description: a functin similar to the standard library 
- * function strstr.
+ * Description: a functin similar to the standard library function strstr.
  *
  * Return: a pointer to the begininng of the located sbstring
  */
@@ -23,6 +22,6 @@ char *_strstr(char *haystack, char *needle)
 			if (!*hp)
 				return (NULL);
 		} while (*hp++ == *np++);
-	} while(*(++haystack));
+	} while (*(++haystack));
 	return (NULL);
 }
