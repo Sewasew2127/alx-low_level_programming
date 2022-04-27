@@ -12,7 +12,7 @@ int _help_prime(int x, int y)
 		return (0);
 	if (x < y * 2)
 		return (1);
-	return(_help_prime(x, y + 1));
+	return (_help_prime(x, y + 1));
 }
 /**
  * is_prime_number - a function returns 1 if n is prime number
@@ -22,7 +22,7 @@ int _help_prime(int x, int y)
  */
 int is_prime_number(int n)
 {
-	if ( n < 4)
+	if (n < 4)
 		return (n > 1);
 	return (_help_prime(n, 2));
 }
