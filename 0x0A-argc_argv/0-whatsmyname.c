@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - the entry point to print the programs name
  * @argc: the numer of the argument passed to the program from
