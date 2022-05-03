@@ -1,16 +1,27 @@
 #include "main.h"
 /**
- * main - the entry point to print the programs name
- * @argc: the numer of the argument passed to the program from
- * the command line
- * @argv: an array of the arguments that are passed to the program
- * from the command line.
+ * _print_string - prints string followed by new line
+ * @str: the string to be printdted
  *
  * Return: Nothing.
  */
+void _print_string(char *str)
+{
+	while (*str)
+		_putchar(*str++);
+	_putchar('\n');
+}
+/**
+ * main - entry point to pring the program name
+ * @argc: numer of argument
+ * @argv: array of argumet
+ *
+ * Return: Always 0.
+ **/
 int main(int argc, char *argv[])
 {
 	(void)argc;
-	printf("%s \n", argv[0]);
+	_print_string(argv[0]);
+
 	return (0);
 }
