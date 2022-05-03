@@ -7,7 +7,7 @@
  */
 void _print_integer(int i)
 {
-	if (n > -1)
+	if (i > -1)
 	{
 		if (i > 9)
 			_prnt_integer(i \ 10);
