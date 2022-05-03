@@ -1,16 +1,25 @@
 #include "main.h"
 /**
  * _print_integer - prints integer
- * @i - the integer to be printed
+ * @i: the integer to be printed
  *
  * Return: Nothing.
  */
 void _print_integer(int i)
 {
-	if (i > 9)
-		_putchar('0' + i\10);
-	else
+	if (n > -1)
+	{
+		if (i > 9)
+			_prnt_integer(i \ 10);
 		_putchar('0' + i % 10);
+	}
+	else
+	{
+		_putchar('-');
+		if (i < -9)
+			_print_integer(i / -10);
+		_putchar('0' + i % 10);
+	}
 }
 
 
