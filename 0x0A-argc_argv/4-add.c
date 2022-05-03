@@ -43,16 +43,16 @@ void _prints(char *s)
  */
 int main(int argc, char *argv[])
 {
-	if (argc == 3)
-	{
+	int sum;
 
-		_print_integer(atoi(argv[1]) * atoi(argv[2]));
-		_putchar('\n');
-		return (0);
-	}
-	else
+	for (sum = 0; --argc; sum += atoi(*argv))
 	{
-		_prints("Error");
-		return (1);
+		if (!isdigits(*(++argv)))
+		{
+			_prints("Error");
+			return (1);
+		}
 	}
+	printf("%d\n", sum);
+	return (0);
 }

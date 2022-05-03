@@ -7,5 +7,6 @@ int _putchar(char c);
 
 void _print_string(char *str);
 void _print_integer(int i);
+void _prints(char *s);
 
 #endif

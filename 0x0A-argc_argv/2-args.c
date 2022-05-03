@@ -1,5 +1,17 @@
 #include <stdio.h>
 /**
+ * _prints - print string
+ * @s: stirng to be printed
+ *
+ * Return: void.
+ */
+_prints(char *s)
+{
+	while (*s)
+		_putchar(*s++);
+	_putchar('\n');
+}
+/**
  * main - a program that prints all arguments it receives
  * @argc: the numer of argument passed to the program
  * @argv: array of strings passed to the program
@@ -8,12 +20,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s \n", argv[i]);
-	}
-
+	do {
+		_prints(*argv++);
+	} while (--argc > 0);
+	
 	return (0);
 }
