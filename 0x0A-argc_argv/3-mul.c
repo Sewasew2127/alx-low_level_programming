@@ -11,7 +11,7 @@ void _print_integer(int i)
 	if (i > -1)
 	{
 		if (i > 9)
-			print_integer(i / 10);
+			_print_integer(i / 10);
 		_putchar('0' + i % 10);
 	}
 	else
