@@ -3,7 +3,7 @@
 /**
  * _abs - Function that computes the absolute value of an integer
  *
- * @n: The number to be checked
+ * @m: The number to be checked
  *
  * Return: absolute value
  */
