@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * read_textfile - reads a text file and prints it to the POSIX stadard outout
  * @filename: path of the file to read
  * @letters: number of letters to read and print
@@ -38,7 +38,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	written = write(STDOUT_FILENO, buffer, to_read);
 	free(buffer);
 
-	if (written < 0)
+	ifread_textfile(written < 0)
 		return (0);
 
 	return (written);
