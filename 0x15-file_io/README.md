@@ -7,6 +7,7 @@
 =======================================================================================================
 	
 	# Files in the directory
+## C codes
 
 * 0-read_textfile.c - a function that reads a text file and prints it to the POSIX standard output
 
@@ -15,3 +16,9 @@
 * 2-append_text_to_file.c - a function that appends text at the end of a file
 
 * 3-cp.c - a function that copies the content of a file to another file
+
+
+## other files
+ * Requiescat - a file with a poem (I just like the poem and its to run the --read_textfiles.c
+	to comile it "gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-read_textfile.c -o a"
+	to run it ./a Requiescat
